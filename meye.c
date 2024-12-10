@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main() {printf("Enter the number of elements :\n");int n;scanf("%d",&n);printf("Enter the elements :\n");int arr[n];for (int i=0;i<n;i++){scanf("%d", &arr[i]);}int find;printf("Enter what you wanna find: ");scanf("%d", &find);for (int i=n-1;i>=0;i--){if (arr[i]==find)printf("%d", i);}printf("\n");}
